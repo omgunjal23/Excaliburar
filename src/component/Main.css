@@ -1,0 +1,35 @@
+.start-button {
+  position: relative;
+  overflow: hidden;
+  width: 120px; /* Adjust width as needed */
+  height: 50px; /* Adjust height as needed */
+  background-color: #1b1e89;
+  border: none;
+  color: #fff;
+  font-size: 1em;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+
+.start-button::before {
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  content: '';
+  position: absolute;
+  top: -14px; /* Adjust position to make hexagon */
+  left: -25px; /* Adjust position to make hexagon */
+  width: 150%;
+  height: 115%;
+  /* border: 2px solid #fff; Apply border to create hexagonal shape */
+}
+
+.start-button:hover::before,
+.start-button:focus::before {
+  color:#fff;/* Apply border color on hover */
+}
+
+.start-button:hover {
+  border: 2px solid #fff;
+  background-color: #0f9027; 
+  color:#fff;/* Apply background color on hover */
+}
