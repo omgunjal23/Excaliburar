@@ -32,13 +32,13 @@ const Events = () => {
         description: "In the Robot Programming event, participants showcase their coding prowess by developing algorithms that control robotic devices. Challenges may involve navigating mazes, manipulating objects, or completing tasks autonomously. This event tests participants' programming skills, problem-solving abilities, and creativity in crafting efficient and precise robotic behaviors.",
         fileUrl: 'https://drive.google.com/file/d/1oYW2yYpPvLNYpDjZBuL8yJ6zGfkvpQNE/view?usp=sharing',
         link:"https://forms.gle/NoDfky7bpZArnEnz5"},
-        { id: 6, name: 'Robo Expo / Exhibition', location: 6, image: event6, 
+        { id: 6, name: 'Exhibition', location: 6, image: event6, 
         description: "Experience the cutting-edge of robotics at the Robot Innovator Exhibition, where innovation meets imagination. This interactive showcase brings together the latest advancements in robotics technology, featuring a diverse range of robotic creations designed to inspire, educate, and captivate audiences of all ages." ,
         fileUrl: 'https://drive.google.com/file/d/1ViCQ2rOhjSIUxkgHQIGxg74pbFpZCk2b/view?usp=sharing',
         link:"https://forms.gle/ZeR2hdtRXUwjdcJb6"},
         { id: 7, name: 'Lathe War', location: 8, image: event7, 
-        description: "Robo contraption competitions inspire participants to design and build multifaceted robots, blending mechanical, electrical, and programming skills. Teams strategize and innovate to overcome challenges, fostering creativity, problem-solving, and teamwork in a dynamic environment.",
-        fileUrl: 'https://drive.google.com/file/d/1ViCQ2rOhjSIUxkgHQIGxg74pbFpZCk2b/view?usp=sharing' ,
+        description: "It is the competition amongst students on Lathe Machine. Different tasks in terms of machining operation were given to the students like turning, facing, Threading, drilling, grooving. likewise some of the operations participants has to perform on the given job and within a given time limits they has to complete their job with accuracy.",
+        fileUrl: 'https://drive.google.com/file/d/110QergLy6NTFR4EjbsRdqmqr5O2e2m0n/view?usp=sharing' ,
         link:"https://docs.google.com/forms/d/1Gx5g-wd2IdJV-fGfXX0Ub_MC3sEgzxuAHVov_HKeDGg/edit"},
         { id: 8, name: 'Digital Poster Presentation', location: 7, image: event8, 
         description: "Digital poster competitions entail crafting visually captivating posters using multimedia elements and digital tools. Participants convey ideas, promote concepts, and engage in friendly competition, showcasing their design skills and creativity in a digital format." ,
@@ -46,7 +46,7 @@ const Events = () => {
         link:"https://forms.gle/CgVBzDvfMATVXCP8A"},
         { id: 9, name: 'Paper Presentation', location: 7, image: event9, 
         description: "Paper presentation competitions showcase research or scholarly work through oral presentations summarizing papers. Participants present findings, ideas, or analyses, supported by visual aids, aiming for clarity, originality, and effective communication to peers and judges." ,
-        fileUrl: 'https://drive.google.com/file/d/1ViCQ2rOhjSIUxkgHQIGxg74pbFpZCk2b/view?usp=sharing',
+        fileUrl: 'https://drive.google.com/file/d/1JHKuOCqe7SY09T4gjWKIm-n8K5sXUK1F/view?usp=sharing',
         link:"https://docs.google.com/forms/d/e/1FAIpQLSf64YtqNUa_Mp3Kb8Qo-CpdJpq9NmG8GZpNE3SahycjwCpilw/viewform"}
 
     ];
