@@ -18,19 +18,19 @@ function Contact() {
         window.location.href = 'https://forms.gle/Je7XycezBWAAtdbP8';
         break;
       case 'Option 4':
-        window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSclaSgml3HVpmmzCBUZnTBYoOsONX28KZJD0Ms59xeBK-TIMQ/viewform?vc=0&c=0&w=1&flr=0&usp=mail_form_link';
+        window.location.href = 'https://forms.gle/Bso9dYZNUM8paMMk6';
         break;
         case 'Option 5':
         window.location.href = 'https://forms.gle/ZeR2hdtRXUwjdcJb6';
         break;
       case 'Option 6':
-        window.location.href = 'https://forms.gle/NoDfky7bpZArnEnz5';
+        window.location.href = 'https://forms.gle/t1hRBZA8kwnLtxc3A';
         break;
         case 'Option 7':
         window.location.href = 'https://forms.gle/CgVBzDvfMATVXCP8A';
         break;
       case 'Option 8':
-        window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSf64YtqNUa_Mp3Kb8Qo-CpdJpq9NmG8GZpNE3SahycjwCpilw/viewform';
+        window.location.href = 'https://forms.gle/7x1j9L2NVEbyaSUy8';
         break;
         case 'Option 9':
         window.location.href = 'https://docs.google.com/forms/d/1Gx5g-wd2IdJV-fGfXX0Ub_MC3sEgzxuAHVov_HKeDGg/edit';
@@ -81,7 +81,7 @@ function Contact() {
             <option value="Option 6">Robo Programming</option>
             <option value="Option 7">Digital Poster Presentation</option>
             <option value="Option 8">Paper Presentation</option>
-            <option value="Option 9">Robo Contraption</option>
+            <option value="Option 9">Lathe War</option>
             {/* Add other options as needed */}
           </select>
         </div>
