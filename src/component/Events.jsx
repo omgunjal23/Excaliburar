@@ -1,4 +1,4 @@
-import {Link} from 'react-router-dom';
+/* import {Link} from 'react-router-dom'; */
 import event1 from '../images/Robowar.jpg';
 import event2 from '../images/Linefollowerrobot.jpg';
 import event3 from '../images/Dronracing.jpg';
@@ -14,28 +14,28 @@ const Events = () => {
     const events = [
         { id: 1, name: 'Robo War', location: 1, image: event1, 
         description:"Get ready to witness an adrenaline-fueled battle of robots in the ultimate test of strength and strategy! In the Robowar competition, teams will pit their custom-built robots against each other in a thrilling showdown of mechanical mayhem.",
-        fileUrl: 'https://drive.google.com/file/d/1ViCQ2rOhjSIUxkgHQIGxg74pbFpZCk2b/view?usp=sharing',
+        fileUrl: 'https://drive.google.com/file/d/1brvdscPJyXypJ7EeTZkBsB_8I984_k2r/view?usp=sharing',
         link:"https://forms.gle/Je7XycezBWAAtdbP8" },
         { id: 2, name: 'Line Follower Robot', location: 2, image: event2, 
         description: "Welcome to the Line Follower Robot competition! This exciting event challenges participants to design and build autonomous robots capable of following a predefined path on a track using sensors and programming algorithms.",
         fileUrl: 'https://drive.google.com/file/d/1ViCQ2rOhjSIUxkgHQIGxg74pbFpZCk2b/view?usp=sharing',
         link:"https://forms.gle/b4V6fmAFJfE9GGpW9" },
-        { id: 3, name: 'Dron Racing', location: 3, image: event3, 
+        { id: 3, name: 'Drone Racing', location: 3, image: event3, 
         description: "Welcome to the adrenaline-fueled world of drone racing! Get ready to witness an exhilarating display of speed, agility, and precision as skilled pilots navigate their drones through a challenging course filled with obstacles and twists." ,
         fileUrl: 'https://drive.google.com/file/d/1ViCQ2rOhjSIUxkgHQIGxg74pbFpZCk2b/view?usp=sharing',
         link:"https://docs.google.com/forms/d/e/1FAIpQLSclaSgml3HVpmmzCBUZnTBYoOsONX28KZJD0Ms59xeBK-TIMQ/viewform?vc=0&c=0&w=1&flr=0&usp=mail_form_link"},
-        { id: 4, name: 'E-sport', location: 4, image: event4, 
+        { id: 4, name: 'E-Sport', location: 4, image: event4, 
         description: "eSports feature professional gamers battling across various video game genres like MOBAs and FPS. Tournaments, held in arenas or online, draw millions of viewers, offering substantial prizes and elevating gaming to a global competitive spectacle." ,
         fileUrl: 'https://drive.google.com/file/d/11uWD_zo5I00FQbSuSV6GCXBhZWRfkSJO/view?usp=drive_link',
         link:"https://docs.google.com/forms/d/e/1FAIpQLSd7_7nPrszZzCCRB70ipFJuICAzLg3OviGDFzLtO9K_iUGYQw/viewform?usp=sf_link"},
         { id: 5, name: 'Robot Programming', location: 5, image: event5, 
         description: "In the Robot Programming event, participants showcase their coding prowess by developing algorithms that control robotic devices. Challenges may involve navigating mazes, manipulating objects, or completing tasks autonomously. This event tests participants' programming skills, problem-solving abilities, and creativity in crafting efficient and precise robotic behaviors.",
-        fileUrl: 'https://drive.google.com/file/d/1ViCQ2rOhjSIUxkgHQIGxg74pbFpZCk2b/view?usp=sharing',
+        fileUrl: 'https://drive.google.com/file/d/1oYW2yYpPvLNYpDjZBuL8yJ6zGfkvpQNE/view?usp=sharing',
         link:"https://forms.gle/NoDfky7bpZArnEnz5"},
         { id: 6, name: 'Robo Expo / Exhibition', location: 6, image: event6, 
         description: "Experience the cutting-edge of robotics at the Robot Innovator Exhibition, where innovation meets imagination. This interactive showcase brings together the latest advancements in robotics technology, featuring a diverse range of robotic creations designed to inspire, educate, and captivate audiences of all ages." ,
         fileUrl: 'https://drive.google.com/file/d/1ViCQ2rOhjSIUxkgHQIGxg74pbFpZCk2b/view?usp=sharing',
-        link:"https://forms.gle/rA5biT9rxNKWLfPf7"},
+        link:"https://forms.gle/ZeR2hdtRXUwjdcJb6"},
         { id: 7, name: 'Contraption', location: 8, image: event7, 
         description: "Robo contraption competitions inspire participants to design and build multifaceted robots, blending mechanical, electrical, and programming skills. Teams strategize and innovate to overcome challenges, fostering creativity, problem-solving, and teamwork in a dynamic environment.",
         fileUrl: 'https://drive.google.com/file/d/1ViCQ2rOhjSIUxkgHQIGxg74pbFpZCk2b/view?usp=sharing' ,
@@ -76,22 +76,24 @@ const Events = () => {
                         {/* <p className="event-info"><b>Date: </b> {event.location}</p> */}
                         <p className="event-description">{event.description}</p>
                         <button style={{ 
-        background: "#007bff",
+        background: "#87CEEB",
         border: "2px solid black",
         borderRadius: "10px",
         height: "40px", // Increase the height
     }}
-    onMouseEnter={(e) => e.target.style.backgroundColor = "#36ae34"} // Change color on hover
-    onMouseLeave={(e) => e.target.style.backgroundColor = "#007bff"} onClick={() => handleDownload(event.fileUrl)}>Download Info</button>
+    onMouseEnter={(e) => e.target.style.backgroundColor = "#808080"} // Change color on hover
+    onMouseLeave={(e) => e.target.style.backgroundColor = "#87CEEB"} onClick={() => handleDownload(event.fileUrl)}>Event Rulebook</button>
+    {/*
     <Link to={event.link}><button style={{ 
-        background: "#007bff",
+        background: "#87CEEB",
         border: "2px solid black",
         marginLeft:"10px",
         borderRadius: "10px",
         height: "40px", // Increase the height
     }}
-    onMouseEnter={(e) => e.target.style.backgroundColor = "#36ae34"} // Change color on hover
-    onMouseLeave={(e) => e.target.style.backgroundColor = "#007bff"} >Register</button></Link>
+    onMouseEnter={(e) => e.target.style.backgroundColor = "#808080"} // Change color on hover
+    onMouseLeave={(e) => e.target.style.backgroundColor = "#87CEEB"} >Register</button></Link>
+*/}
                     </div>
                 ))}
                 

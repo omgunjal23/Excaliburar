@@ -15,20 +15,24 @@ const Home = () => {
     <>
       <Navbar bg="dark" variant="dark" expand="md" expanded={expanded} collapseOnSelect>
         <Navbar.Brand href="/">
-          <img
-            src={collegeLogo}
-            width="60"
-            height="50"
-            className="d-inline-block align-top"
-            alt="College Logo"
-            style={{ marginRight: '10px' }} // Adjust the margin as needed
-          />
+            <div style={{ display: 'flex', alignItems: 'center' }}>
+          
+              <img
+                src={collegeLogo}
+                width="60"
+                height="50"
+                className="d-inline-block align-top"
+                alt="College Logo"
+                style={{ marginRight: '1px' }} // Adjust the margin as needed
+              />
+              <span style={{ marginRight: '29px', marginTop:"8px", color: '#fff' }}><h3>Excalibur</h3></span>
+          </div>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setExpanded(!expanded)} />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mr-auto">
+          {/* <Nav className="mr-auto">
             <h3 className="nav-title" style={{ color: '#fff', marginRight: '20px' }}>Excalibur</h3>
-          </Nav>
+  </Nav> */}
           <Nav className="ml-auto" style={{marginLeft:"70px"}}>
             <Link to='/events' className="nav-link" style={{ color: '#fff', marginRight: '40px',  }} onClick={handleNavPageClick}>Events</Link>
             <Link to='/register' className="nav-link" style={{ color: '#fff', marginRight: '40px' }} onClick={handleNavPageClick}>Register</Link>

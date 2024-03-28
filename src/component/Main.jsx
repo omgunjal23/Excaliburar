@@ -1,9 +1,10 @@
 import React, { useState, useEffect,useCallback } from 'react';
 import { Button, Modal } from 'react-bootstrap';
-import closeIcon from '../images/window.jpg';
+import closeIcon from '../images/window1.jpg';
 import Image from '../images/bgimg1.jpg';  
 import './Main.css' 
-import Logo from '../images/logo.png'
+import Logo from '../images/logo.png';
+import close from '../images/close.png'
 
 const Main = () => {
   const targetDate = new Date('2024-04-18T23:59:59').getTime();
@@ -41,6 +42,10 @@ const Main = () => {
     window.location.href = '/Events';
   };
 
+  const handleregisterModal = () => {
+    window.location.href = '/Register';
+  };
+
   return (
     <>
       <div
@@ -56,7 +61,7 @@ const Main = () => {
   }}
 >
 
-<img src={Logo} alt="Excalibur Logo" style={{ position: 'absolute',marginTop:"35px", top: '20px', left: '50%', transform: 'translateX(-50%)', width: '110px', height: '100px' }} />
+<img src={Logo} alt="Excalibur Logo" style={{ position: 'absolute',marginTop:"35px", top: '20px', left: '50%', transform: 'translateX(-50%)', width: '150px', height: '150px' }} />
 
 
         <div
@@ -69,17 +74,23 @@ const Main = () => {
             color: 'white',
           }}
         >
-          <h1 style={{ fontSize: '3rem', marginTop: "130px", marginBottom: '20px', fontFamily: 'Roboto Serif' }}>Welcome to <br />EXCALIBUR</h1>
-          <p style={{ fontSize: '1.5rem', marginBottom: '30px' }}>Participate in events and Explore the prizes</p>
+          <h1 style={{ fontSize: '3rem', marginTop: "130px", marginBottom: '20px', fontFamily: 'Roboto Serif' }}> {/*Welcome to*/} <br />EXCALIBUR</h1>
+          <p style={{ fontSize: '1.5rem', marginBottom: '20px' }}>Participate in events and Explore the prizes</p>
           <Button
             className="start-button"
             variant="outline-info"
             onClick={() => setShowModal(true)}
-            style={{ marginBottom: '100px' }}
-          >
+            style={{ marginBottom: '25px' }}>
             <h4>Explore</h4>
-          </Button>
-          <center><h3 style={{marginBottom:"10px"}}>Register Now</h3></center>
+          </Button><br></br>
+          <Button
+            className="register-button"
+            variant="outline-info"
+            onClick={() => handleregisterModal(true)}
+            style={{ marginBottom: '40px' }}>
+            <h4>Register Now</h4>
+          </Button><br></br>
+          <br></br>
           <div style={{ display: 'flex', justifyContent: 'center' }}>
             <CountdownBlock label="Days" value={remainingTime.days} />
             <CountdownBlock label="Hours" value={remainingTime.hours} />
@@ -89,13 +100,18 @@ const Main = () => {
         </div>
 
         <Modal show={showModal} onHide={() => setShowModal(false)} backdrop="static" keyboard={false}>
-          <Modal.Body style={{ backgroundColor: 'transparent', textAlign: 'center' }}>
-            <div style={{ position: 'relative' }}>
-              <img src={closeIcon} alt="Close" style={{ width: '100%', height: 'auto' }} />
-              <Button variant="outline-light" onClick={handleCloseModal} style={{ position: 'absolute', top: '10px', right: '10px' }}>Close</Button>
-            </div>
-          </Modal.Body>
-        </Modal>
+        <Modal.Body style={{ backgroundColor: 'transparent', textAlign: 'center' }}>
+          <div style={{ position: 'relative' }}>
+            {/* Close icon */}
+            <img src={close} alt="Close" style={{ width: '40px', height: '40px', position: 'absolute', top: '10px', right: '-10px', cursor: 'pointer', zIndex: 1 }} onClick={handleCloseModal} />
+            {/* Image */}
+            <img src={closeIcon} alt="Close the window" style={{ width: '100%', height: 'auto', marginTop: '60px' }} />
+          </div>
+        </Modal.Body>
+      </Modal>
+
+
+
       </div>
     </>
   );

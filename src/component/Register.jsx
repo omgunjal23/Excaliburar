@@ -21,7 +21,7 @@ function Contact() {
         window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSclaSgml3HVpmmzCBUZnTBYoOsONX28KZJD0Ms59xeBK-TIMQ/viewform?vc=0&c=0&w=1&flr=0&usp=mail_form_link';
         break;
         case 'Option 5':
-        window.location.href = 'https://forms.gle/rA5biT9rxNKWLfPf7';
+        window.location.href = 'https://forms.gle/ZeR2hdtRXUwjdcJb6';
         break;
       case 'Option 6':
         window.location.href = 'https://forms.gle/NoDfky7bpZArnEnz5';

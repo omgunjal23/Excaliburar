@@ -10,21 +10,23 @@
     transition: transform 0.3s ease-in-out;
     transform-style: preserve-3d; /* Enable 3D transformations */
     position: relative;
+    background-color: #000000; /* event block background */
 }
 
 .event-item:hover {
     animation: flipAnimation 0s ease-in-out forwards;
+    /*background-color: #000000;*/
 }
 
 .event-image {
-    width: 60%;
+    width: 90%; /* previous is 60% */
     height: 200px;
     margin-bottom: 10px;
     border-radius: 15px; /* You can adjust the value to increase or decrease the curve */
 }
 
 .event-name {
-    color: #007bff;
+    color: #e5b846;
     margin-bottom: 10px;
 }
 
@@ -35,9 +37,11 @@
 }
 
 .event-description {
-    font-size: 16px;
+    font-size: 13px; /*older is 16 */
     margin-bottom: 10px;
     color: #fff;
+    text-align: justify;
+    
 }
 
 @keyframes flipAnimation {
@@ -51,3 +55,4 @@
         transform: scale(1) rotateY(360deg);
     }
 }
+     

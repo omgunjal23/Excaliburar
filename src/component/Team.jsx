@@ -31,8 +31,8 @@ import haseonkar from '../images/haseonkar.jpg'
 import nikhilhajare from '../images/nikhilhajare.jpg'
 import sanket from '../images/sanket.jpg'
 import chaitnya from '../images/chaitnya.jpg'
-
-
+import divya from '../images/divya.jpg'
+import HOD from '../images/shindesir.jpg'
 
 
 
@@ -56,16 +56,28 @@ const Team = () => {
     <div style={{...styles.page,backgroundImage: `url(${bgImage})`}}>
      <center> <h1 style={styles.heading}>Our Team</h1>
       <p style={styles.paragraph}><h5>Meet our amazing team members...</h5></p></center>
-      <li style={styles.listItem}>
-          <img src={pathade} alt="John Doe" style={styles.image} />
+      <br></br>
+      <ul style={{ display: "flex", flexDirection: "row",justifyContent:"center",marginTop:"30px",marginBottom:"30px",  listStyleType: "none", padding: 0 }}>
+        <li style={{ ...styles.listItem, marginRight: "20px" }}>
+          <img src={HOD} alt="John Doe" style={styles.image} />
           <div style={{color:"white",height:"80px"}}>
-            <h6><span style={{fontSize:"1.2rem"}}>prof.</span> H.P. Pathade <br/> Event Manager
+            <h6><span style={{fontSize:"1.2rem"}}>Dr.</span> V.B.Shinde <br/> Head of Event
             <br />
-            Contact: +91 9011076115</h6>
+            </h6>
           </div>
         </li>
+        <li style={{ ...styles.listItem, marginRight: "20px" }}>
+          <img src={pathade} alt="John Doe" style={styles.image} />
+          <div style={{color:"white",height:"80px"}}>
+            <h6><span style={{fontSize:"1.2rem"}}>Prof.</span> H.P. Pathade <br/> Event Manager
+            <br />
+            </h6>
+          </div>
+        </li>
+      </ul>
         <br/>
         <br></br>
+        
        <center> <h3 style={{color:"#fff"}}>Event Co-ordinators</h3></center>
        <ul style={{ display: "flex", flexDirection: "row",justifyContent:"center",marginTop:"30px",marginBottom:"30px",  listStyleType: "none", padding: 0 }}>
           <li style={{ ...styles.listItem, marginRight: "20px" }}>
@@ -149,7 +161,7 @@ const Team = () => {
         </ul>
         <br></br>
 
-        <center> <h3 style={{color:"#fff"}}>Line Follower Robot Co-ordinators</h3></center>
+        <center> <h3 style={{color:"#fff"}}>Line Follower Robo Co-ordinators</h3></center>
        <ul style={{ display: "flex", flexDirection: "row",justifyContent:"center",marginTop:"30px",marginBottom:"30px",  listStyleType: "none", padding: 0 }}>
           <li style={{ ...styles.listItem, marginRight: "20px" }}>
             <img src={om} alt="Jane Smith" style={styles.image} />
@@ -162,7 +174,7 @@ const Team = () => {
           <li style={styles.listItem}>
             <img src={shirish} alt="Michael Johnson" style={styles.image} />
             <div style={{ color: "#fff" }}>
-              Shirish Sangle
+              Shirish Sangale
               <br />
               Contact: +91 9359745542
             </div>
@@ -297,35 +309,6 @@ const Team = () => {
         </ul>
         <br></br>
 
-        <center> <h3 style={{color:"#fff"}}>Paper Presentation Co-ordinators</h3></center>
-       <ul style={{ display: "flex", flexDirection: "row",justifyContent:"center",marginTop:"30px",marginBottom:"30px",  listStyleType: "none", padding: 0 }}>
-          <li style={{ ...styles.listItem, marginRight: "20px" }}>
-            <img src={pari} alt="Jane Smith" style={styles.image} />
-            <div style={{ color: "#fff" }}>
-              Parimal Pokharkar 
-              <br />
-              Contact: +91 9370369376
-            </div>
-          </li>
-          <li style={styles.listItem}>
-            <img src={nikhil} alt="Michael Johnson" style={styles.image} />
-            <div style={{ color: "#fff" }}>
-              Nikhil Pagare
-              <br />
-              Contact: +91 7887961904
-            </div>
-          </li>
-          <li style={styles.listItem}>
-            <img src={tanuja} alt="Michael Johnson" style={styles.image} />
-            <div style={{ color: "#fff" }}>
-              Tanuja Rahane
-              <br />
-              Contact: +91 9356868961
-            </div>
-          </li>
-        </ul>
-        <br></br>
-
         <center> <h3 style={{color:"#fff"}}>Contraption Co-ordinators</h3></center>
        <ul style={{ display: "flex", flexDirection: "row",justifyContent:"center",marginTop:"30px",marginBottom:"30px",  listStyleType: "none", padding: 0 }}>
           <li style={{ ...styles.listItem, marginRight: "20px" }}>
@@ -384,6 +367,45 @@ const Team = () => {
           </li>
         </ul>
 
+        <br></br>
+
+       
+
+        <center> <h3 style={{color:"#fff"}}>Paper Presentation Co-ordinators</h3></center>
+       <ul style={{ display: "flex", flexDirection: "row",justifyContent:"center",marginTop:"30px",marginBottom:"30px",  listStyleType: "none", padding: 0 }}>
+          <li style={{ ...styles.listItem, marginRight: "20px" }}>
+            <img src={pari} alt="Jane Smith" style={styles.image} />
+            <div style={{ color: "#fff" }}>
+              Parimal Pokharkar 
+              <br />
+              Contact: +91 9370369376
+            </div>
+          </li>
+          <li style={styles.listItem}>
+            <img src={nikhil} alt="Michael Johnson" style={styles.image} />
+            <div style={{ color: "#fff" }}>
+              Nikhil Pagare
+              <br />
+              Contact: +91 7887961904
+            </div>
+          </li>
+          <li style={styles.listItem}>
+            <img src={tanuja} alt="Michael Johnson" style={styles.image} />
+            <div style={{ color: "#fff" }}>
+              Tanuja Rahane
+              <br />
+              Contact: +91 9356868961
+            </div>
+          </li>
+          <li style={styles.listItem}>
+            <img src={divya} alt="Michael Johnson" style={styles.image} />
+            <div style={{ color: "#fff" }}>
+              Divya Pawar  
+              <br />
+              Contact: +91 9975250775
+            </div>
+          </li>
+        </ul>
         <br></br>
 
         <center> <h3 style={{color:"#fff"}}>Technical Team</h3></center>

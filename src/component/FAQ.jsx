@@ -15,6 +15,7 @@ const FAQ = () => {
         <br></br>
         <h3><p style={styles.paragraph}>Here are some frequently asked questions...</p></h3>
       </center>
+      <br></br>
       <ul style={styles.list}>
         {faqData.map((item, index) => (
           <li key={index}>
@@ -41,24 +42,20 @@ const faqData = [
     answer: 'Participants must adhere to the components and materials specified in the respective domain rulebook. Compliance with the guidelines outlined in the rulebook is essential for constructing the robots.'
   },
   {
-    question: 'Where will I be staying during the competition?',
-    answer: 'We will notify you soon about accommodation arrangements for the competition. Please stay tuned for further updates.'
-  },
-  {
     question: 'What are the allowed dimensions and weight limits for the robots?',
     answer: 'Please refer to the rulebook for specific guidelines regarding the allowed dimensions and weight limits for the robots. Compliance with the regulations outlined in the rulebook is essential.'
   },
   {
     question: 'Can only undergraduate student can apply to the event?',
-    answer: 'Both undergraduate (UG) and postgraduate (PG) students can apply.'
+    answer: 'Both undergraduate (UG) and postgraduate (PG) and any one students can apply.'
   },
   {
     question: 'Where can we see the Rules & Guidelines About Any Event?',
     answer: 'Refer the Rulebook Attached in the Event page for a Particular Event.'
   },
   {
-    question: 'Can you Provide a certificate of Participation for participaints & also can you provide a certificate to winners?',
-    answer: 'Yes, we provide a certificate of Participation to participaints & also provide a certificate to winners'
+    question: 'Can you Provide a certificate of Participation for participants & also can you provide a certificate to winners?',
+    answer: 'Yes, we provide a certificate of Participation to participants & also provide a certificate to winners'
   }
 ];
 
