@@ -309,7 +309,7 @@ const Team = () => {
         </ul>
         <br></br>
 
-        <center> <h3 style={{color:"#fff"}}>Contraption Co-ordinators</h3></center>
+        <center> <h3 style={{color:"#fff"}}>Lathe War Co-ordinators</h3></center>
        <ul style={{ display: "flex", flexDirection: "row",justifyContent:"center",marginTop:"30px",marginBottom:"30px",  listStyleType: "none", padding: 0 }}>
           <li style={{ ...styles.listItem, marginRight: "20px" }}>
             <img src={snehal} alt="Jane Smith" style={styles.image} />
@@ -372,7 +372,7 @@ const Team = () => {
        
 
         <center> <h3 style={{color:"#fff"}}>Paper Presentation Co-ordinators</h3></center>
-       <ul style={{ display: "flex", flexDirection: "row",justifyContent:"center",marginTop:"30px",marginBottom:"30px",  listStyleType: "none", padding: 0 }}>
+       <ul style={{ display: "flex", flexDirection: "row",justifyContent:"center",marginTop:"30px",marginBottom:"5px",  listStyleType: "none", padding: 0 }}>
           <li style={{ ...styles.listItem, marginRight: "20px" }}>
             <img src={pari} alt="Jane Smith" style={styles.image} />
             <div style={{ color: "#fff" }}>
@@ -389,24 +389,24 @@ const Team = () => {
               Contact: +91 7887961904
             </div>
           </li>
-          <li style={styles.listItem}>
-            <img src={tanuja} alt="Michael Johnson" style={styles.image} />
+        </ul> 
+        <br></br>
+       <ul style={{ display: "flex", flexDirection: "row",justifyContent:"center",marginTop:"5px",marginBottom:"30px",  listStyleType: "none", padding: 0 }}>
+          <li style={{ ...styles.listItem, marginRight: "20px" }}>
+            <img src={tanuja} alt="Jane Smith" style={styles.image} />
             <div style={{ color: "#fff" }}>
-              Tanuja Rahane
-              <br />
+            Tanuja Rahane <br/> 
               Contact: +91 9356868961
             </div>
           </li>
           <li style={styles.listItem}>
             <img src={divya} alt="Michael Johnson" style={styles.image} />
             <div style={{ color: "#fff" }}>
-              Divya Pawar  
-              <br />
+            Divya Pawar <br/> 
               Contact: +91 9975250775
             </div>
           </li>
         </ul>
-        <br></br>
 
         <center> <h3 style={{color:"#fff"}}>Technical Team</h3></center>
        <ul style={{ display: "flex", flexDirection: "row",justifyContent:"center",marginTop:"30px",marginBottom:"30px",  listStyleType: "none", padding: 0 }}>
