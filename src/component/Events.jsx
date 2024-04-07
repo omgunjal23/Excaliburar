@@ -14,7 +14,7 @@ const Events = () => {
     const events = [
         { id: 1, name: 'Robo War', location: 1, image: event1, 
         description:"Get ready to witness an adrenaline-fueled battle of robots in the ultimate test of strength and strategy! In the Robowar competition, teams will pit their custom-built robots against each other in a thrilling showdown of mechanical mayhem.",
-        fileUrl: 'https://drive.google.com/file/d/1brvdscPJyXypJ7EeTZkBsB_8I984_k2r/view?usp=sharing',
+        fileUrl: 'https://drive.google.com/file/d/14TBhRwUHE_zhv8RhaVNeyKujyuxA2Gwm/view?usp=sharing',
         link:"https://forms.gle/Je7XycezBWAAtdbP8" },
         { id: 2, name: 'Line Follower Robot', location: 2, image: event2, 
         description: "Welcome to the Line Follower Robot competition! This exciting event challenges participants to design and build autonomous robots capable of following a predefined path on a track using sensors and programming algorithms.",

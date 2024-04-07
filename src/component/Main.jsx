@@ -61,7 +61,7 @@ const Main = () => {
   }}
 >
 
-<img src={Logo} alt="Excalibur Logo" style={{ position: 'absolute',marginTop:"35px", top: '20px', left: '50%', transform: 'translateX(-50%)', width: '150px', height: '150px' }} />
+<img src={Logo} alt="Excalibur Logo" style={{ position: 'absolute',marginTop:"25px", top: '20px', left: '50%', transform: 'translateX(-50%)', width: '150px', height: '150px' }} />
 
 
         <div
@@ -74,7 +74,9 @@ const Main = () => {
             color: 'white',
           }}
         >
-          <h1 style={{ fontSize: '3rem', marginTop: "130px", marginBottom: '20px', fontFamily: 'Roboto Serif' }}> {/*Welcome to*/} <br />EXCALIBUR</h1>
+          <h1 style={{ fontSize: '3rem', marginTop: "117px", marginBottom: '20px', fontFamily: 'Times New Roman' }}> {/*Welcome to*/} <br />EXCALIBUR</h1>
+          <br></br>
+          <h3 style={{ fontSize: '2rem', marginTop: "-90px", marginBottom: '5px', fontFamily: 'Times New Roman' }}> {/*Welcome to*/} <br />2K24</h3>
           <p style={{ fontSize: '1.5rem', marginBottom: '20px' }}>Participate in events and Explore the prizes</p>
           <Button
             className="start-button"
@@ -83,11 +85,12 @@ const Main = () => {
             style={{ marginBottom: '25px' }}>
             <h4>Explore</h4>
           </Button><br></br>
+          
           <Button
             className="register-button"
             variant="outline-info"
             onClick={() => handleregisterModal(true)}
-            style={{ marginBottom: '40px' }}>
+            style={{ marginBottom: '35px' }}>
             <h4>Register Now</h4>
           </Button><br></br>
           <br></br>
