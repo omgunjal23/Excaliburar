@@ -74,7 +74,7 @@ function Contact() {
           >
             <option value="">Select an Event</option>
             <option value="Option 1">E-sport</option>
-            <option value="Option 2">Line follower Robo</option>
+            <option value="Option 2">Robo Racing</option>
             <option value="Option 3">Robo War</option>
             <option value="Option 4">Drone Racing</option>
             <option value="Option 5">Exhibition</option>

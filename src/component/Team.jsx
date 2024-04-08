@@ -161,7 +161,7 @@ const Team = () => {
         </ul>
         <br></br>
 
-        <center> <h3 style={{color:"#fff"}}>Line Follower Robo Co-ordinators</h3></center>
+        <center> <h3 style={{color:"#fff"}}>Robo Racing Co-ordinators</h3></center>
        <ul style={{ display: "flex", flexDirection: "row",justifyContent:"center",marginTop:"30px",marginBottom:"30px",  listStyleType: "none", padding: 0 }}>
           <li style={{ ...styles.listItem, marginRight: "20px" }}>
             <img src={om} alt="Jane Smith" style={styles.image} />
