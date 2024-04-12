@@ -18,7 +18,7 @@ const Events = () => {
         link:"https://forms.gle/Je7XycezBWAAtdbP8" },
         { id: 2, name: 'Robo Racing', location: 2, image: event2, 
         description: "Welcome to the Robo Race competition! This exciting event challenges participants to design and build autonomous robots capable of completing a predefined path on a track using sensors and programming algorithms.",
-        fileUrl: 'https://drive.google.com/file/d/1Hlk_DqRI6k6Qao4__xVwa_XUqz59khNW/view?usp=sharing',
+        fileUrl: 'https://drive.google.com/file/d/1FqVIJ38MA-3Iq7H7zQSPJ4uJnhCcFZ0X/view?usp=sharing',
         link:"https://forms.gle/b4V6fmAFJfE9GGpW9" },
         { id: 3, name: 'Drone Racing', location: 3, image: event3, 
         description: "Welcome to the adrenaline-fueled world of drone racing! Get ready to witness an exhilarating display of speed, agility, and precision as skilled pilots navigate their drones through a challenging course filled with obstacles and twists." ,
