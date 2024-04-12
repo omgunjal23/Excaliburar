@@ -35,6 +35,10 @@ function Footer() {
                     <path d="M12 5.65a6.35 6.35 0 1 0 0 12.7 6.35 6.35 0 0 0 0-12.7zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm5-11.18a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
                   </svg>
                 </a>
+                {/* Google Map */}
+                <a className="btn btn-outline-light btn-floating m-1" href="https://maps.app.goo.gl/WtaXeH9JZRZKh1nF8" role="button">
+                  <img src="https://logodownload.org/wp-content/uploads/2018/01/google-maps-logo-2-1.png" alt="Google Maps" style={{ width: '20px', height: '20px' }} />
+                </a>
               </section>
             </div>
           </div>

@@ -324,7 +324,7 @@ const Team = () => {
             <div style={{ color: "#fff" }}>
               Prajwali Landge
               <br />
-              Contact: +91 9422261095
+              Contact: +91 9322490592
             </div>
           </li>
           <li style={styles.listItem}>

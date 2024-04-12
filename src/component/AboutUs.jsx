@@ -8,7 +8,10 @@ const AboutUs = () => {
       <center><h1 style={styles.heading}>About Us</h1></center>
       <div style={styles.content}>
         <h5 style={styles.paragraph}>
-          Join us for an exhilarating journey into the world of robotics at Excalibur 2024. This event is a celebration of innovation, technology, and the incredible advancements in the field of robotics. Whether you're a seasoned roboticist, a tech enthusiast, or just curious about the future, this is the place to be.
+        
+        Department of Automation and Robotics Engineering is recently established by the Institute from A.Y. 2021-22 with a UG program.
+        <br></br>
+        Automation and Robotics Engineering is an emerging multi-disciplinary course that requires profound application based knowledge in hardware as well as software development, which comprise design, construction, operation, and application of robots. The design of a robotic system puts together basics of mechanical engineering, manufacturing engineering, electrical/electronics Engineering, and Computer engineering.
         </h5>
         <br />
 
