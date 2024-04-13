@@ -16,8 +16,6 @@ import sponsor8 from '../images/Sponsers/Nandini Engineer.jpeg';
 import sponsor9 from '../images/Sponsers/Global Soft.jpeg';
 import sponsor10 from '../images/Sponsers/Yuvavarta Logo.png';
 
-
-
 const Main = () => {
   const targetDate = new Date('2024-04-18T23:59:59').getTime();
 
@@ -73,7 +71,9 @@ const Main = () => {
           backgroundAttachment: 'fixed',
         }}
       >
-
+        <div className="scrolling-line">
+          <span>Registration has been started... Register Now</span>
+        </div>
         <img src={Logo} alt="Excalibur Logo" style={{ position: 'absolute', marginTop: "25px", top: '20px', left: '50%', transform: 'translateX(-50%)', width: '150px', height: '150px' }} />
 
         <div
@@ -149,7 +149,6 @@ const Main = () => {
           {/* Replace with your sponsor images */}
           <img src={sponsor9} alt="Sponsor 1" style={{ width: '60px', height: '50px', margin: '0 10px' }} />
           <img src={sponsor10} alt="Sponsor 2" style={{ width: '80px', height: '50px', margin: '0 10px' }} />
-          
         </div>
       </div>
     </>

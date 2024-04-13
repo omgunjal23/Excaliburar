@@ -74,3 +74,31 @@
 .modal-content {
   background: transparent !important; /* background of window image */
 }
+
+
+.scrolling-line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  color: rgb(221, 61, 61);
+}
+
+.scrolling-line span {
+  display: inline-block;
+  white-space: nowrap;
+  transform: translateX(100%);
+  animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
