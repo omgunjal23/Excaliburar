@@ -42,7 +42,7 @@ const Events = () => {
         link:"https://docs.google.com/forms/d/1Gx5g-wd2IdJV-fGfXX0Ub_MC3sEgzxuAHVov_HKeDGg/edit"},
         { id: 8, name: 'Digital Poster Presentation', location: 7, image: event8, 
         description: "Digital poster competitions entail crafting visually captivating posters using multimedia elements and digital tools. Participants convey ideas, promote concepts, and engage in friendly competition, showcasing their design skills and creativity in a digital format." ,
-        fileUrl: 'https://drive.google.com/file/d/1YoHVk0SPn9kLAoY5aARrOW6nOrU0WZU_/view?usp=sharing' ,
+        fileUrl: 'https://drive.google.com/file/d/1X1jpHq-rCQgPVt040zseCDunyQWcATJ0/view?usp=sharing' ,
         link:"https://forms.gle/CgVBzDvfMATVXCP8A"},
         { id: 9, name: 'Paper Presentation', location: 7, image: event9, 
         description: "Paper presentation competitions showcase research or scholarly work through oral presentations summarizing papers. Participants present findings, ideas, or analyses, supported by visual aids, aiming for clarity, originality, and effective communication to peers and judges." ,
