@@ -72,7 +72,7 @@ const Main = () => {
         }}
       >
         <div className="scrolling-line">
-          <span>Registration has been started... Register Now</span>
+          <span>*Registration has been started... Register Now* *For Accommodation Limited slots Are available Register fast*</span>
         </div>
         <img src={Logo} alt="Excalibur Logo" style={{ position: 'absolute', marginTop: "25px", top: '20px', left: '50%', transform: 'translateX(-50%)', width: '150px', height: '150px' }} />
 

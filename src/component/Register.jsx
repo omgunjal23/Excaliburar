@@ -35,6 +35,9 @@ function Contact() {
         case 'Option 9':
         window.location.href = 'https://docs.google.com/forms/d/1Gx5g-wd2IdJV-fGfXX0Ub_MC3sEgzxuAHVov_HKeDGg/edit';
         break;
+        case 'Option 10':
+        window.location.href = 'https://forms.gle/JbV4kPTG1XouwggF8';
+        break;
       // Add cases for other options as needed
       default:
         break;
@@ -82,6 +85,7 @@ function Contact() {
             <option value="Option 7">Digital Poster Presentation</option>
             <option value="Option 8">Paper Presentation</option>
             <option value="Option 9">Lathe War</option>
+            <option value="Option 10">Accommodation Registration</option>
             {/* Add other options as needed */}
           </select>
         </div>
