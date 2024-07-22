@@ -31,7 +31,7 @@ const Events = () => {
         { id: 5, name: 'Robot Programming', location: 5, image: event5, 
         description: "In the Robot Programming event, participants showcase their Problem solving and design abilities by developing logics for different Problems using PLC, design of different parts using CAD software. Challenges may involve manipulating objects, or completing tasks autonomously. This event tests participants' programming skills, problem-solving abilities, and creativity in crafting efficient and precise robotic behaviors.",
         fileUrl: 'https://drive.google.com/file/d/1rzbh_2L465PodxZ6R1xpIdEJaTtpFjJV/view?usp=sharing',
-        link:"https://forms.gle/NoDfky7bpZArnEnz5"},
+        link:"https://forms.gle/NoDfky7bpZArnEnz5"},    
         { id: 6, name: 'Exhibition', location: 6, image: event6, 
         description: "Experience the cutting-edge of robotics at the Robot Innovator Exhibition, where innovation meets imagination. This interactive showcase brings together the latest advancements in robotics technology, featuring a diverse range of robotic creations designed to inspire, educate, and captivate audiences of all ages." ,
         fileUrl: 'https://drive.google.com/file/d/1WnWaSOHNmvJr2MX1PldLBE2h4Sh2S9-h/view?usp=sharing',
